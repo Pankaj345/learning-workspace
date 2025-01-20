@@ -1,0 +1,57 @@
+/* 
+.main{
+width: 300px;
+height: 200px;
+margin: 50px;
+padding: 10px;
+background: yellow;
+}
+
+.items{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    border: 2px dashed cyan;
+    word-break: break-word;
+}
+.but{
+    color:rgb(238, 5, 52);
+    margin: 30px;
+    padding: 10px;
+} */
+.main{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(178, 211, 240);
+    box-sizing: border-box;
+}
+.bahar{
+width: 200px;
+height: 100px;
+background-color: rgb(21, 152, 234);
+}
+.pehla{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(78, 171, 233);
+}
+.dusra{
+    padding-top: 20px;
+    width: 200px;
+    height: 70px;
+    text-align: justify;
+    text-align: center;
+    background-color: rgb(48, 118, 165);
+}
+.tesra{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(77, 164, 221);
+}
