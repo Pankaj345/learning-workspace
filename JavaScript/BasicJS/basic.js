@@ -15,3 +15,17 @@ console.log("Sum of a and b is",a+b);
 console.log("Substraction of a and b is",a-b);
 
 // solve some more problems
+
+
+//modulus operator
+let a1 = 100;
+let b2 = 20;
+console.log(a1%b2); 
+// % is used to find the remainder of the division of two numbers
+//use for Destribution of number in a group
+// 100 % 20 = 0
+
+//exponential operator
+let a2 = 2;
+let b3 = 3;
+console.log(a2**b3);
