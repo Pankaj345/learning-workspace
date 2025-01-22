@@ -89,11 +89,11 @@ if (totalBill >= discountStartPrice) {
 
 let pocket = 200;
 
-if (pocket >= 1000) { // first check condition is true or not if true then execute if not then check next condition
+if (pocket >= 1000) { //check condition 200>=1000
     console.log("five star hotel dinner");
-} else if (pocket >= 500) {
+} else if (pocket >= 500) { //check condition 200>=500
     console.log("street food");
-} else if (pocket >= 200) {
+} else if (pocket >= 200) {//check condition 200>=200 if its true then it will execute code ends here
   console.log("local food");
 }
 else if (pocket >= 100) {
@@ -102,5 +102,70 @@ else if (pocket >= 100) {
 else {
     console.log("poor");
 }
+//only one condition will be executed at a time 
 
-// 
+//understanding else if with one example if there is one poor family and they have
+//limited money they can buy only one items at a time
+
+const rice_available = true;
+const bread_available = true;
+const apple_available = true;
+if(rice_available){
+    console.log("buy rice"); //execute only one condition at a time
+}
+else if(bread_available){
+    console.log("buy bread");
+}
+else if(apple_available){
+    console.log("buy apple");
+}
+else{
+    console.log("Market is closed");
+}
+
+//if there is one rich family and they have to buy all items at a time they we use multiple if statement
+
+const riceAvailable = true;
+const breadAvailable = true;
+const appleAvailable = true;
+if(riceAvailable){
+    console.log("buy rice"); //execute all conditions
+}
+if(breadAvailable){
+    console.log("buy bread");
+}
+if(appleAvailable){
+    console.log("buy apple");
+}
+//if we want to execute all conditions we use multiple if statement 
+
+//problem :---->Bill and discount
+
+const total_Bill = 799; // use 1500 value to check program
+
+if(total_Bill>=500){
+    console.log("10% discount");
+}
+else if(total_Bill>=1000){
+    console.log("20% discount");
+}
+else{
+    console.log("No discount");
+}
+
+//<--program is not right because-->
+// if total bill is more then 1000 still we getting 10% discount 
+// so Ordering is important
+//put 1000 at first and then 500 and then no discount
+//always put best amount first then second best amount
+//1st highest then 2nd highest then lowest
+
+if(total_Bill>=1000){
+    console.log("20% discount");// correct ordering largest amount first
+}
+else if(total_Bill>=500){
+    console.log("10% discount");
+}
+else{
+    console.log("No discount");
+}
