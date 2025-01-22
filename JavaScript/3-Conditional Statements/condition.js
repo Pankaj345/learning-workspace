@@ -23,7 +23,7 @@ if(result)
     console.log("5 is greater than 4");
 }
 
-// example:
+// example:------->
 
 const goodKarma = true;
 
@@ -54,7 +54,7 @@ else{
     console.log("hell is waiting for you");
 }
 
-//example:
+//example:----->
 
 // name are equal or not
 
@@ -73,3 +73,34 @@ if(true){ // 1 is also true
 if(false){ // 0 is also false
     console.log("hi");   
 }
+
+//problem: discount is available or not
+
+const totalBill = 699;
+const discountStartPrice = 500;
+
+if (totalBill >= discountStartPrice) {
+    console.log("Discount is available");
+} else {
+    console.log("Discount is not available");
+}
+
+//3.**************************else-if statement******************************
+
+let pocket = 200;
+
+if (pocket >= 1000) { // first check condition is true or not if true then execute if not then check next condition
+    console.log("five star hotel dinner");
+} else if (pocket >= 500) {
+    console.log("street food");
+} else if (pocket >= 200) {
+  console.log("local food");
+}
+else if (pocket >= 100) {
+    console.log("snacks only");
+}
+else {
+    console.log("poor");
+}
+
+// 
