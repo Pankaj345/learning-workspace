@@ -1,7 +1,3 @@
-Here’s a more beautiful and engaging version of your README with emojis added for extra charm:  
-
----
-
 # 🌟 **Open Source Education Workshop: Learn by Doing!** 🚀  
 
 Welcome to the **open-source learning space** where education meets real-world coding! 🎓✨  
