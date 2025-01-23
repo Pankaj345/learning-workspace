@@ -169,3 +169,35 @@ else if(total_Bill>=500){
 else{
     console.log("No discount");
 }
+
+//**************nested if & else if statement******************
+
+const gender = "female";
+const age = 20;
+
+if(gender === "male"){//if this true then only check age
+
+    if(age >= 21){
+
+    console.log("Eligible for marriage");
+
+    }
+    else{
+        console.log("Not eligible for marriage");
+    }
+}//if end here
+
+else if(gender === "female"){
+
+    if(age >= 18){
+        console.log("Eligible for marriage");
+    }
+    else{
+        console.log("Not eligible for marriage");
+    }
+
+    }// else if end
+
+    else{
+        console.log("Invalid gender");
+    }//else end
