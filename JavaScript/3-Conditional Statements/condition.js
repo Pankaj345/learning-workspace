@@ -203,10 +203,4 @@ else if(gender === "female"){
     }//else end
 
 
-    /// 
 
-    age
-    AggregateError
-    appleAvailableaa
-    aaaw
-    aaawa
