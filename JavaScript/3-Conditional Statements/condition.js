@@ -201,3 +201,12 @@ else if(gender === "female"){
     else{
         console.log("Invalid gender");
     }//else end
+
+
+    /// 
+
+    age
+    AggregateError
+    appleAvailableaa
+    aaaw
+    aaawa
