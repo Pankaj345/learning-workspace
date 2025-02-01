@@ -202,8 +202,5 @@ else if(gender === "female"){
         console.log("Invalid gender");
     }//else end
 
-    //1srt zwbwqnwqq
-    //2nd ===
-
 
 
